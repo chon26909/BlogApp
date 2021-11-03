@@ -1,0 +1,14 @@
+.background-navbar {
+    background-color:beige;
+    height: 50px;
+    width: 100%;
+}
+.navbar-blog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.nav-left .logo {
+    width: 200px
+}
