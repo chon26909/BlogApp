@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import "../styles/navbar.css";
 
 const Navbar = () => {
@@ -6,7 +7,9 @@ const Navbar = () => {
         <nav className="background-navbar">
             <div className="container navbar-blog">
                 <div className="nav-left">
-                    <img className="logo" src="https://cdn.freelogovectors.net/wp-content/uploads/2020/11/line_man_logo.png" alt="logo" />
+                    <Link to="/">
+                    <img className="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Blogger_logo.svg/1280px-Blogger_logo.svg.png" alt="logo" />
+                    </Link>
                 </div>
                 <div className="nav-right">
                     right
