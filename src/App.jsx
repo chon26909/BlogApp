@@ -12,13 +12,13 @@ import Profile from "./pages/Profile";
 
 const App = () => {
   return (
-    <Fragment>
-      <Navbar />
+    <div className="App">
       <Router>
+        <Navbar />
         <Route path="/" exact component={LandingPage} />
         <Route path="/me" component={Profile} />
       </Router>
-    </Fragment>
+    </div>
   );
 }
 
